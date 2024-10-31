@@ -21,7 +21,7 @@ int main(void) {
 
   while (i != 10) {
     i++;
-    printf("Result %u is %010u.\n", i, wsp_prng_32_randomize(&s));
+    printf("Result %u is %u.\n", i, wsp_prng_32_randomize(&s));
   }
 
   return 0;
