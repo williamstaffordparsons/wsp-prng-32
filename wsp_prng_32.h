@@ -4,8 +4,8 @@
 #include <stdint.h>
 
 struct wsp_prng_32_s {
-  uint32_t word;
-  uint32_t rotation;
+  uint32_t primary;
+  uint32_t secondary;
   uint32_t increment;
 };
 

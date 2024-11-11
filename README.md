@@ -13,8 +13,8 @@ Read more [here](https://williamstaffordparsons.github.io/wsp-prng-32/).
 
 int main(void) {
   struct wsp_prng_32_s s = {
-    .word = 0,
-    .rotation = 0,
+    .primary = 0,
+    .secondary = 0,
     .increment = 0
   };
   unsigned char i = 0;
