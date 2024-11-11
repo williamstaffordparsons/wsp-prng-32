@@ -4,9 +4,9 @@
 #include <stdint.h>
 
 struct wsp_prng_32_s {
-  uint32_t a;
-  uint32_t b;
-  uint32_t c;
+  uint32_t word;
+  uint32_t rotation;
+  uint32_t increment;
 };
 
 uint32_t wsp_prng_32_randomize(struct wsp_prng_32_s *s);

@@ -13,9 +13,9 @@ Read more [here](https://williamstaffordparsons.github.io/wsp-prng-32/).
 
 int main(void) {
   struct wsp_prng_32_s s = {
-    .a = 0,
-    .b = 0,
-    .c = 0
+    .word = 0,
+    .rotation = 0,
+    .increment = 0
   };
   unsigned char i = 0;
 
