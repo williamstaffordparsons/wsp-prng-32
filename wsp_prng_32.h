@@ -4,8 +4,8 @@
 #include <stdint.h>
 
 struct wsp_prng_32_s {
-  uint32_t primary;
-  uint32_t secondary;
+  uint32_t a;
+  uint32_t b;
   uint32_t increment;
 };
 
